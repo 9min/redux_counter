@@ -17,7 +17,7 @@ Buttons.propTypes = {
 };
 
 Buttons.defaultProps = {
-  onCreate: () => console.warn('onCrate not defined'),
+  onCreate: () => console.warn('onCreate not defined'),
   onRemove: () => console.warn('onRemove not defined')
 };
 
