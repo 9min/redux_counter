@@ -13,7 +13,7 @@ function counter(state = initialState, action) {
   const { counters } = state;
 
   switch (action.type) {
-    case types.CRATE:
+    case types.CREATE:
       return {
         counters: [
           ...counters,
