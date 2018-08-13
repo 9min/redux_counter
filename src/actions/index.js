@@ -17,7 +17,7 @@ export const setColor = ({ index, color }) => ({
 });
 
 export const create = (color) => ({
-  type: types.CRATE,
+  type: types.CREATE,
   color
 });
 
